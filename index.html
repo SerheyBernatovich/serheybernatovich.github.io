@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="en"><head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="description" content="Serhii Bernatovych — Front-end Developer specializing in Angular, TypeScript and FinTech.">
+<meta name="theme-color" content="#101827">
+<title>Serhii Bernatovych — Front-end Developer</title>
+<style>
+:root{--bg:#0b1220;--panel:#121d30;--text:#edf3fc;--muted:#a9b7ca;--accent:#76a9ff;--line:#26364d}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:radial-gradient(ellipse at 80% 0%,#1b3150,transparent 42%),var(--bg);color:var(--text);font:16px/1.65 Inter,system-ui,sans-serif}
+a{color:inherit;text-decoration:none}.wrap{width:min(1050px,calc(100% - 40px));margin:auto}header{padding:26px 0;display:flex;justify-content:space-between;align-items:center}.brand{font-weight:800}.nav{display:flex;gap:22px;color:var(--muted);font-size:14px}
+.hero{padding:82px 0 65px;display:grid;grid-template-columns:1.5fr .8fr;gap:45px;align-items:center}.eyebrow{color:var(--accent);font-weight:700;letter-spacing:.13em;text-transform:uppercase;font-size:12px}
+h1{font-size:clamp(42px,7vw,72px);line-height:1.04;letter-spacing:-.055em;margin:18px 0}.lead{font-size:19px;color:#c2cede;max-width:650px}
+.actions{display:flex;flex-wrap:wrap;gap:12px;margin-top:28px}.btn{padding:12px 18px;border-radius:12px;font-weight:700;font-size:14px;border:1px solid var(--line);display:inline-flex}
+.primary{background:var(--accent);color:#071326;border-color:var(--accent)}.secondary{background:#ffffff08}
+.profile,.card{background:#111c2e;border:1px solid var(--line);border-radius:20px;padding:24px}.profile{background:linear-gradient(145deg,#1a2b45,#111b2d);padding:28px}
+.initials{width:76px;height:76px;border-radius:22px;background:linear-gradient(135deg,#83b5ff,#456fc0);display:grid;place-items:center;color:#071326;font-size:26px;font-weight:850}
+.profile h2{font-size:21px;margin:20px 0 2px}.muted{color:var(--muted)}.pills,.skills{display:flex;flex-wrap:wrap;gap:9px;margin-top:18px}
+.pill,.skill{border:1px solid #344760;background:#ffffff08;color:#d4e1f2;padding:7px 11px;border-radius:999px;font-size:13px}
+section{padding:36px 0}.section-title{font-size:26px;letter-spacing:-.03em;margin:0 0 18px}.grid{display:grid;grid-template-columns:repeat(2,1fr);gap:15px}
+.card h3{margin:0 0 8px;font-size:17px}.card p,li{color:var(--muted)}.role{display:flex;justify-content:space-between;gap:15px;flex-wrap:wrap}.role strong{font-size:17px}.date{color:var(--accent);font-size:13px;font-weight:700}
+ul{padding-left:19px;margin-bottom:0}li{margin:6px 0}.contact{background:linear-gradient(130deg,#162945,#111b2d);border:1px solid var(--line);border-radius:22px;padding:28px;display:flex;justify-content:space-between;align-items:center;gap:20px;flex-wrap:wrap}
+footer{padding:32px 0;color:#8191a8;font-size:13px;border-top:1px solid var(--line);margin-top:45px}
+@media(max-width:740px){.hero{grid-template-columns:1fr;padding:55px 0 35px;gap:25px}.grid{grid-template-columns:1fr}.nav{gap:12px}.nav a:nth-child(2){display:none}}
+</style></head><body><div class="wrap">
+<header><a class="brand" href="#">SB<span style="color:var(--accent)">.</span></a><nav class="nav"><a href="#about">About</a><a href="#experience">Experience</a><a href="#skills">Skills</a><a href="#contact">Contact</a></nav></header>
+<main>
+<div class="hero" id="about"><div><div class="eyebrow">Front-end Developer · Wroclaw, Poland</div><h1>Serhii<br>Bernatovych</h1>
+<p class="lead">I build modern, reliable web applications with Angular and TypeScript, with 3 years of experience in FinTech.</p>
+<div class="actions"><a class="btn primary" href="assets/Serhii_Bernatovych_CV.pdf" download>Download CV</a><a class="btn secondary" href="https://www.linkedin.com/in/bernatovych-serhii-a443051b2/" target="_blank" rel="noopener">LinkedIn ↗</a><a class="btn secondary" href="mailto:serhii.bernatovych@gmail.com">Contact me</a></div></div>
+<aside class="profile"><div class="initials">SB</div><h2>Angular Developer</h2><div class="muted">FinTech · Web applications · E2E testing</div><div class="pills"><span class="pill">Angular</span><span class="pill">TypeScript</span><span class="pill">RxJS</span><span class="pill">Cypress</span></div></aside></div>
+<section><h2 class="section-title">About me</h2><div class="card"><p class="muted">Front-end Developer focused on building business-critical interfaces and reusable UI components. Experienced in REST API integration, application state management, and end-to-end testing with Cypress. Currently expanding my backend skills through Java studies at Mate academy.</p></div></section>
+<section id="experience"><h2 class="section-title">Experience</h2><div class="card"><div class="role"><strong>Front-end Developer · FinTech</strong><span class="date">2022 — Present</span></div><ul><li>Develop and maintain web applications using Angular and TypeScript.</li><li>Build business-critical UI features and reusable components.</li><li>Integrate REST APIs and third-party services.</li><li>Work with RxJS, forms, validation and state management.</li><li>Create and maintain E2E tests using Cypress.</li><li>Collaborate with backend, QA and product teams in an Agile environment.</li></ul></div>
+<div class="card" style="margin-top:14px"><div class="role"><strong>Software Developer (Intern / Trainee) · FinTech</strong><span class="date">Nov 2021 — May 2022</span></div><ul><li>Developed and improved features for a commercial web application.</li><li>Worked with a legacy project, refactoring frontend code and fixing bugs.</li><li>Participated in code reviews and feature discussions; wrote unit tests.</li></ul></div></section>
+<section id="skills"><h2 class="section-title">Technical skills</h2><div class="skills"><span class="skill">Angular · Primary stack</span><span class="skill">TypeScript / JavaScript</span><span class="skill">RxJS</span><span class="skill">NgRx</span><span class="skill">Reactive Forms</span><span class="skill">Cypress · E2E</span><span class="skill">HTML5 / CSS3</span><span class="skill">SCSS / Sass</span><span class="skill">REST API / HTTP</span><span class="skill">Git / GitHub</span><span class="skill">Jira / VS Code</span><span class="skill">Java · Beginner</span><span class="skill">Agile / Scrum</span><span class="skill">BEM / Clean Code</span><span class="skill">FinTech</span></div></section>
+<section><h2 class="section-title">Education & languages</h2><div class="grid"><div class="card"><h3>Education</h3><p>Mate academy — Java course (2026 — present)<br>Gromcode online University — Full-time program (2021 — 2022)<br>QA Start Up — Course (2021)</p></div><div class="card"><h3>Languages</h3><p>Ukrainian — Native<br>English — B2<br>Polish — A2</p></div></div></section>
+<section id="contact"><div class="contact"><div><div class="eyebrow">Let's connect</div><h2 style="margin:7px 0 4px">Have a project in mind?</h2><div class="muted">Feel free to reach out.</div></div><div class="actions" style="margin:0"><a class="btn primary" href="mailto:serhii.bernatovych@gmail.com">Email me</a><a class="btn secondary" href="https://www.linkedin.com/in/bernatovych-serhii-a443051b2/" target="_blank" rel="noopener">LinkedIn ↗</a></div></div></section>
+</main><footer>© <span id="year"></span> Serhii Bernatovych · Wroclaw, Poland</footer></div><script>document.getElementById('year').textContent=new Date().getFullYear()</script></body></html>
